@@ -1,2 +1,2 @@
 # dynamodb-sandbox
-Dynamo DB sanbox
+Dynamo DB sandbox
