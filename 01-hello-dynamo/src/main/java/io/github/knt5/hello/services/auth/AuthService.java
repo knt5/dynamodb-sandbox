@@ -17,14 +17,21 @@ public class AuthService {
 		
 		String sessionId = "xxx";
 		
-		return new Session(sessionId, userId, formatter.format(new Date()));
+		Session session = new Session(sessionId, userId, formatter.format(new Date()));
+		
+		// Insert session to DB
+		
+		
+		return session;
 	}
 	
 	public void touch(Session session) {
+		// Update lastTouchedTime of session by id DB
 		
 	}
 	
 	public void logout(Session session) {
+		// Delete session from DB
 		
 	}
 }
