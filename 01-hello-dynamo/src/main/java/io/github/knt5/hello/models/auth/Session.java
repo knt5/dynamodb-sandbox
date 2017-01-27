@@ -8,5 +8,5 @@ import lombok.Data;
 public class Session {
 	private String id;
 	private String userId;
-	private String lastTouchedTime;
+	private String lastTouchTime;
 }

@@ -31,7 +31,7 @@ public class AuthService {
 	}
 	
 	public void touch(Session session) {
-		// Update lastTouchedTime of session by id DB
+		// Update lastTouchTime
 		
 	}
 	
